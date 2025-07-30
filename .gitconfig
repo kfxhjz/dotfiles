@@ -1,0 +1,39 @@
+[user]
+	email = kfxhjz@gmail.com
+	name = dynamicer
+[pull]
+	ff = only
+	rebase = true
+[rebase]
+	autoStash = true
+[http]
+	sslVerify = false
+	postBuffer = 4096M
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	symlinks = true
+	pager = delta
+[https]
+	postBuffer = 4096M
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	features = side-by-side line-numbers decorations
+	whitespace-error-style = 22 reverse
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+	conflictstyle = zdiff3
+[mergetool "vimdiff"]
+	cmd = nvim -d $LOCAL $BASE $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[spice "branchCreate"]
+	commit = false
