@@ -32,6 +32,11 @@ config.keys = {
 		mods = "OPT",
 		action = act.SendKey({ key = "f", mods = "ALT" }),
 	},
+	{
+		key = "v",
+		mods = "CMD",
+		action = act.PasteFrom("Clipboard"),
+	},
 }
 
 -- Finally, return the configuration to wezterm:
