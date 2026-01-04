@@ -1,0 +1,11 @@
+# https://alacritty.org/config-alacritty.html
+
+[window]
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "JetBrains Maple Mono", style = "Regular" }
+# normal = { family = "JetBrains Mono", style = "Regular" }
+# normal = { family = "NotoMono Nerd Font Mono", style = "Regular" }
+size = 14
+
