@@ -21,6 +21,7 @@
 [core]
 	symlinks = true
 	pager = delta
+	quotepath = false
 [https]
 	postBuffer = 4096M
 [init]
