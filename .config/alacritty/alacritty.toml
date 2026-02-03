@@ -4,8 +4,11 @@
 startup_mode = "Maximized"
 
 [font]
-normal = { family = "JetBrains Maple Mono", style = "Regular" }
 # normal = { family = "JetBrains Mono", style = "Regular" }
 # normal = { family = "NotoMono Nerd Font Mono", style = "Regular" }
+normal = { family = "JetBrains Maple Mono", style = "Regular" }
+bold = { family = "JetBrains Maple Mono", style = "bold" }
+italic = { family = "JetBrains Maple Mono", style = "italic" }
+bold_italic = { family = "JetBrains Maple Mono", style = "bold italic" }
 size = 14
 
