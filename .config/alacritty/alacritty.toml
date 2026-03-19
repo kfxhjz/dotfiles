@@ -1,7 +1,11 @@
 # https://alacritty.org/config-alacritty.html
 
+[env]
+TERM = "alacritty"
+
 [window]
 startup_mode = "Maximized"
+dimensions = { columns = 0, lines = 0 }
 
 [font]
 # normal = { family = "JetBrains Mono", style = "Regular" }
@@ -11,4 +15,5 @@ bold = { family = "JetBrains Maple Mono", style = "bold" }
 italic = { family = "JetBrains Maple Mono", style = "italic" }
 bold_italic = { family = "JetBrains Maple Mono", style = "bold italic" }
 size = 14
+
 
