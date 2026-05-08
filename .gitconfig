@@ -40,3 +40,5 @@
 	cmd = nvim -d $LOCAL $BASE $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
 [spice "branchCreate"]
 	commit = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/
