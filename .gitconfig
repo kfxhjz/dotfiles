@@ -2,7 +2,6 @@
 	email = kfxhjz@gmail.com
 	name = dynamicer
 [pull]
-	ff = only
 	rebase = true
 [rebase]
 	autoStash = true
